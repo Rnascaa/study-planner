@@ -1,64 +1,92 @@
-\# Study Planner
+<div align="center">
 
+# Study Planner
 
+**Plan your coursework, connect it to your notes, and study smarter with AI.**
 
-Aplikasi web untuk mahasiswa yang menggabungkan manajemen tugas kuliah dengan asisten belajar berbasis AI.
+![Status](https://img.shields.io/badge/status-in%20development-orange)
+![Backend](https://img.shields.io/badge/backend-FastAPI-009688?logo=fastapi&logoColor=white)
+![Frontend](https://img.shields.io/badge/frontend-React%20%2B%20TypeScript-3178C6?logo=react&logoColor=white)
+![Database](https://img.shields.io/badge/database-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-ready-2496ED?logo=docker&logoColor=white)
 
+</div>
 
+---
 
-> Proyek sedang dalam pengembangan.
+## About
 
+Study Planner is a web app for university students that combines assignment management with an AI-powered study assistant. Its core idea is that **tasks and study materials are connected**: every assignment or exam links to its own notes and flashcards.
 
+This project is built in public over 14 weeks as a full-stack portfolio piece covering **UI/UX design, front end, and back end**.
 
-\## Fitur yang direncanakan
+> 🚧 **Work in progress.** Live demo and screenshots will be added with the v1.0 release.
 
+##  Planned Features
 
+### v1.0: Core
+-  Registration and login (JWT)
+-  Semester and course management
+-  Task management with deadlines, types, priorities, and status
+-  "Today", "This week", and "Overdue" dashboard
+-  Notes per course
+-  Flashcards with practice mode
+-  Light and dark theme
 
-\### v1.0 (inti)
+### v2.0: Differentiators
+-  Grade weights and estimated grade per course
+-  Calendar view and `.ics` export for Google Calendar
+-  Spaced repetition using the SM-2 algorithm
+-  Pomodoro timer and study statistics dashboard
+-  Exam mode with countdown and daily study plan
 
-\- Registrasi dan login
+### v3.0: AI
+-  Auto-generate flashcards and quizzes from notes
+-  AI-generated study plans that turn into tasks
+-  Material summaries
 
-\- Manajemen semester dan mata kuliah
+## 🛠️ Tech Stack
 
-\- Manajemen tugas (deadline, jenis, prioritas, status)
+| Layer | Technology |
+|---|---|
+| Design | Figma |
+| Front End | React, TypeScript, Vite, Tailwind CSS |
+| Back End | Python, FastAPI |
+| Database | PostgreSQL, SQLAlchemy, Alembic |
+| Auth | JWT, bcrypt |
+| Testing | pytest, Vitest |
+| DevOps | Docker, docker-compose, GitHub Actions |
+| Deployment | Vercel (front end), Render (back end + database) |
 
-\- Dashboard "Hari ini", "Minggu ini", dan "Terlambat"
+## Roadmap
 
-\- Catatan per mata kuliah
+- [x] **Phase 0:** Setup (repo, tools, project board)
+- [ ] **Phase 1:** UI/UX research and design
+- [ ] **Phase 2:** Database and back end
+- [ ] **Phase 3:** Front end
+- [ ] **Phase 4:** Release v1.0
+- [ ] **Phase 5:** Release v2.0
+- [ ] **Phase 6:** Release v3.0
 
-\- Flashcard dengan mode latihan
+Progress is tracked on the [project board](https://github.com/users/Rnascaa/projects/1).
 
-\- Tema terang dan gelap
+## Project Structure
 
+```text
+study-planner/
+├── backend/     # FastAPI application
+├── frontend/    # React + TypeScript application
+└── docs/        # Research, design, and contributing guide
+```
 
+## Contributing
 
-\### v2.0 (fitur pembeda)
+Commit and branch conventions are documented in [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).
 
-\- Bobot nilai dan estimasi nilai per mata kuliah
+---
 
-\- Tampilan kalender dan ekspor ke .ics
+<div align="center">
 
-\- Spaced repetition (SM-2) untuk flashcard
+Built by [@Rnascaa](https://github.com/Rnascaa)
 
-\- Pomodoro timer dan dashboard statistik
-
-\- Mode ujian
-
-
-
-\### v3.0 (fitur AI)
-
-\- Pembuatan flashcard dan kuis otomatis dari catatan
-
-\- Rencana belajar otomatis berdasarkan tanggal ujian
-
-\- Ringkasan materi
-
-
-
-\## Tech stack
-
-
-
-React + TypeScript, Tailwind CSS, Python + FastAPI, PostgreSQL, Docker.
-
+</div>
